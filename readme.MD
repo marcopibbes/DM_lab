@@ -14,9 +14,17 @@ La combinazione del modello specializzato **`all-MiniLM-L6-v2`** con l'algoritmo
 
 ```bash
 # Clona il repository
-git clone https://github.com/TUO_USERNAME/NOME_REPO.git
+git clone https://github.com/marcopibbes/DM_lab
 cd NOME_REPO
 
 # Crea e attiva un ambiente conda
 conda create -n clustering_env python=3.10 -y
 conda activate clustering_env
+
+```
+
+### 2. Installazione delle dipendenze
+
+```bash
+pip install pandas scikit-learn sentence-transformers torch tqdm accelerate scipy
+```
