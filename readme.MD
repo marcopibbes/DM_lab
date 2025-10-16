@@ -15,7 +15,7 @@ La combinazione del modello specializzato **`all-MiniLM-L6-v2`** con l'algoritmo
 ```bash
 # Clona il repository
 git clone https://github.com/marcopibbes/DM_lab
-cd NOME_REPO
+cd DM_lab
 
 # Crea e attiva un ambiente conda
 conda create -n clustering_env python=3.10 -y
